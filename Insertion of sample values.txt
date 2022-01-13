@@ -1,0 +1,31 @@
+INSERT INTO reception VALUES ('dentist', '4PM to 8PM', 500, 'Monday');
+INSERT INTO reception VALUES ('eye specialist', '3PM to 7PM', 300, 'Tuesday');
+INSERT INTO reception VALUES ('hematologist', '8PM to 11PM', 200, 'Friday');
+INSERT INTO reception VALUES ('cardiologists', '7PM to 10PM', 600, 'Saturday');
+INSERT INTO reception VALUES ('cardiologists1', '7PM to 10PM1', 601, 'Saturday1');
+
+INSERT INTO doctor VALUE ('Sam', 'MBBS', 20, 'Pro.', 6, 'dentist');
+INSERT INTO doctor VALUE ('Sam', 'MBBS', 50, 'Pro.', 6, 'cardiologists');
+INSERT INTO doctor VALUE ('Jack', 'MBBS', 30, 'Asst. Pro.', 8, 'eye specialist');
+INSERT INTO doctor VALUE ('Ragnar', 'MBBS', 40, 'Pro.', 9, 'hematologist');
+INSERT INTO doctor VALUE ('Ragnar1', 'MBBS1', 401, 'Pro1.', 91, 'cardiologists1');
+
+INSERT INTO nurse VALUES (6, 20, 'Jenny', 20);
+INSERT INTO nurse VALUES (7, 20, 'Jenny', 50);
+INSERT INTO nurse VALUES (8, 30, 'Malena', 30);
+INSERT INTO nurse VALUES (9, 40, 'Amy', 40);
+INSERT INTO nurse VALUES (91, 401, 'Amy1', 401);
+
+INSERT INTO laboratory VALUES ('Sample 01', 'Healthy', 'dentist');
+INSERT INTO laboratory VALUES ('Sample 02', 'Strong', 'cardiologists');
+INSERT INTO laboratory VALUES ('Sample 03', 'Weak', 'eye specialist');
+INSERT INTO laboratory VALUES ('Sample 04', 'Normal', 'hematologist');
+INSERT INTO laboratory VALUES ('Sample 041', 'Normal1', 'cardiologists1');
+
+INSERT INTO patient VALUES('Nayeem', 24, 234543, 224, 'Fever', 'New', 20, 'Healthy', 'dentist');
+INSERT INTO patient VALUES('Samia', 23, 234563, 040, 'Heart Infection', 'Old', 50, 'Strong', 'cardiologists');
+INSERT INTO patient VALUES('Anika', 25, 234643, 097, 'Strabismus', 'New', 30, 'Weak', 'eye specialist');
+INSERT INTO patient VALUES('Rayhan', 20, 284543, 225, 'Anemia', 'New', 40, 'Normal', 'hematologist')
+INSERT INTO patient VALUES('Rayhan1', 201, 2845431, 2251, 'Anemia1', 'New1', 401, 'Normal1', 'cardiologists1');
+
+
